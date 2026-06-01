@@ -8,9 +8,12 @@ git reset --hard <idCommitAnteriorParaOQualSeDesejaVoltarOCodigo>
 * --hard apaga o commit do controle de versão e altera o código para versão anterior
 * https://git-scm.com/docs/git-reset/pt_BR
 
+<<<<<<< HEAD
 Para mudar a msg de um commit já feito:
 git commit --amend -m "O novo texto a ser considerado no commit"
 * https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/
 
 Para ver apenas as msgs de commit:
 git log --oneline
+=======
+>>>>>>> 5db0708dbe4ad9535c13a70af7e30a797aaf3bbb
