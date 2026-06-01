@@ -2,7 +2,6 @@ Para voltar a versão de um commit ou voltar a versão de código até o commit 
 git revert <idcommit>
 git push origin main
 
-
 Para apagar um commit:
 git reset --hard <idCommitAnteriorParaOQualSeDesejaVoltarOCodigo>
 * --hard apaga o commit do controle de versão e altera o código para versão anterior
@@ -21,3 +20,11 @@ https://www.alura.com.br/artigos/como-criar-um-readme-para-seu-perfil-github
 Markdown:
 https://www.alura.com.br/artigos/como-trabalhar-com-markdown
 https://wordpress.com/support/markdown-quick-reference/
+
+Para o git ignorar algum arquivo ou pasta adicionar no arquivo:
+.gitignore
+gitignore.io - https://www.toptal.com/developers/gitignore/ - Informa a linguagem e já traz todos os arquivos a serem ignorados
+
+Para compartilhar trechos de códigos e não o projeto como um todo:
++ > New Gist
+
