@@ -1,0 +1,10 @@
+Para voltar a versão de um commit ou voltar a versão de código até o commit em questão:
+git revert <idcommit>
+git push origin main
+
+
+Para apagar um commit:
+git reset --hard <idCommitAnteriorParaOQualSeDesejaVoltarOCodigo>
+* --hard apaga o commit do controle de versão e altera o código para versão anterior
+* https://git-scm.com/docs/git-reset/pt_BR
+
